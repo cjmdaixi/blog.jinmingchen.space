@@ -25,3 +25,5 @@ jobs:
         server: ftp.wtbhk5.top
         username: cjmdaixi
         password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./_site/
+        server-dir: web/
